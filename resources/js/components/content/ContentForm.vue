@@ -255,7 +255,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 flex h-full flex-1 flex-col gap-6 rounded-xl p-4 overflow-x-auto">
     <!-- Form Header -->
     <div class="flex items-center justify-between">
       <div>
@@ -281,7 +281,7 @@ onMounted(() => {
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
       <!-- Form Section -->
-      <div class="space-y-6">
+      <div class="space-y-6 flex h-full flex-1 flex-col gap-6 rounded-xl p-4 overflow-x-auto">
         <!-- Basic Information -->
         <Card>
           <CardHeader>

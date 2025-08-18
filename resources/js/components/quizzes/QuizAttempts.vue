@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 flex h-full flex-1 flex-col gap-6 rounded-xl p-4 overflow-x-auto">
     <!-- Header with Stats -->
     <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
       <div class="p-4 border rounded-lg">

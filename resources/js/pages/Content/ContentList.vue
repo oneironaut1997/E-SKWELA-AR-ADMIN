@@ -107,7 +107,7 @@ onMounted(() => {
 
 <template>
   <AppLayout :breadcrumbs="breadcrumbs">
-    <div class="space-y-6">
+    <div class="space-y-6 flex h-full flex-1 flex-col gap-6 rounded-xl p-4 overflow-x-auto">
       <!-- Page Header -->
       <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
