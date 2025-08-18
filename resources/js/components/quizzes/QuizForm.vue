@@ -212,7 +212,7 @@ import {
 } from '@/components/ui/select';
 
 import type { Quiz, ARContent, CreateQuizData, UpdateQuizData } from '@/types';
-import { GRADE_LEVELS } from '@/types';
+import { GRADE_LEVELS } from '@/types/index.d';
 
 interface Props {
   mode: 'create' | 'edit';
